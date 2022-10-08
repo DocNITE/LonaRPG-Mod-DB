@@ -1,0 +1,26 @@
+this DEMO mod is a DEMO to make a item named "CustomApple".
+you can clone armor and weapons if u know what ur doing.
+you can change other item stats if u know what ur doing.
+
+this DEMO mod will load "ModScripts/500_DEMO_ExtraEventLib.rvdata2" into EventLib.
+you can create a empty map. and write ur own event. or copy paste from event -lib-MapObject
+this mod will do overwrite if events got same name in -lib-MapObject.
+
+how to CREATE A EventLib.
+	#create a new map through RMACE EDITOR.
+	#create a event you want in this map.
+	#save.
+	#copy paste your map and rename to somewhere you like.
+	#delete this map through  RMACE EDITOR.
+	#save.
+	#FileGetter.load_mod_EventLib("YourFolder/YourMap.rvdata2")
+
+Edit a Mod EventLib.
+	#create a new map through RMACE EDITOR, and remember its map_id.
+	#save, and close RMACE EDITOR
+	#rename ur Event into Map"ID".rvdata2 and copy to Data\.
+	#open RMACE EDITOR and load ur map.
+
+Summon this new event from EventLib.
+	#f10
+	#EvLib.sum("CustomApple")
